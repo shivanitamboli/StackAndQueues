@@ -8,6 +8,16 @@ public class StackMain {
 		stack.push(30);
 		stack.push(56);
 		stack.display();
+		// To perform peak and pop till the list is empty
+		stack.peak();
+		stack.pop();
+		stack.display();
+		stack.peak();
+		stack.pop();
+		stack.display();
+		stack.peak();
+		stack.pop();
+		stack.display();
 
 	}
 }
